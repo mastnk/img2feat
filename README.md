@@ -6,7 +6,7 @@ It is an image feature extractor based on a convolutional neural network.
 
 ## Installation
 
-```% pip install img2feat
+```pip install img2feat
 ```
 
 Required libraries: numpy, torch, torchvision, opencv-python
