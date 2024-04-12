@@ -23,7 +23,7 @@ def read(fname):
 
 setup(
     name= 'img2feat', # Application name:
-    version= '0.1.0', # Version number
+    version= '0.3.0', # Version number
 
     author= 'Masayuki Tanaka', # Author name
     author_email= 'mastnk@gmail.com', # Author mail
@@ -41,7 +41,7 @@ setup(
     test_suite = 'tests',
 
     classifiers=[
-        'License :: OSI Approved :: MIT License',
+        'License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)',
         'Programming Language :: Python :: 3.6',
     ]
 )

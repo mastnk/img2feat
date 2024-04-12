@@ -6,8 +6,7 @@ It is an image feature extractor based on a convolutional neural network.
 
 ## Installation
 
-```
-% pip install img2feat
+```% pip install img2feat
 ```
 
 Required libraries: numpy, torch, torchvision, opencv-python
@@ -23,11 +22,11 @@ vgg11, vgg13, vgg16, vgg19,
 resnet18, resnet34, resnet101, resnet152,
 densenet121, densenet161, densenet169, densenet201
 googlenet, mobilenet
-
+vit_b_16
 
 ```python
-from img2feat import CNN
-net = CNN('vgg11')
+from img2feat import BuildNet
+net = BuildNet.build('vgg11')
 x = net( [img] )
 ```
 

@@ -38,7 +38,7 @@ class tests( unittest.TestCase ):
         img = torch.rand( (1,3,224,224), dtype=torch.float32 )
 
 #        names = BuildNet.available_names()
-        names = ['vgg11', 'resnet18']
+        names = ['vgg11', 'resnet18', 'vit_b_16']
         for name in names:
             net, dim_feature = BuildNet.build( name )
             feat = net( img )
